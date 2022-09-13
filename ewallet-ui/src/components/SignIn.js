@@ -34,7 +34,7 @@ export default function SignIn(props) {
       })
         .then((res) => {
           if (res && res.data) {
-            console.log(res.data);
+            // console.log(res.data);
             sessionStorage.setItem("access_token", res.data.token);
             setSignInState({
               ...signInState,
