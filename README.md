@@ -43,7 +43,8 @@ Using Docker Desktop: run `docker compose up` in terminal/command prompt in the 
 
 Using Local setup:
 Before starting the application, the system should have postgreSQL DB with `ewallet_db` database and credentials pastgres/root.
-CMD: run `java -jar ./target/ewallet-0.0.1-SNAPSHOT.jar` in the root directory of the repository.
+
+CMD: run `mvn clean install -DskipTests=true` and then `java -jar ./target/ewallet-0.0.1-SNAPSHOT.jar` in the root directory of the repository.
 
 Eclipse: Import project into eclipse as existing maven project, run EwalletApplication.java as spring boot application.
 
@@ -75,6 +76,9 @@ After application started use below URL to launch the app.
 
 ### Contact:
 Contact me if you need any information 
+
 Gmail: lokireddy.posam@gmail.com
+
 Phone: +91 9133700600
+
 LinkedIn: https://www.linkedin.com/in/lore-posam/
