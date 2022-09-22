@@ -76,9 +76,4 @@ After application started use below URL to launch the app.
 
 ### Contact:
 Contact me if you need any information 
-
-Gmail: lokireddy.posam@gmail.com
-
-Phone: +91 9133700600
-
 LinkedIn: https://www.linkedin.com/in/lore-posam/
